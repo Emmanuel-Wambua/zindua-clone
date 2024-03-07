@@ -7,11 +7,11 @@
     background-color: whitesmoke;
     color: black;
     display: flex;
-    padding: 35px 15px;
+    padding: 0px 15px;
 }
 
 .leftside span {
-    padding: 20px;
+    padding-top: 30px;
     font-size: large;
 }
 
@@ -21,44 +21,36 @@
     gap: 20px;
 }
 
-h1{
-    color: crimson;
-}
-
-button{
-    font-size: 30px;
-    color: aqua;
-}
-
-.image{
-    padding-left: 1000px;
-}
-image{
-    width: 50px;
-    height: 100px;
-}
-
-.text{
-    font-size: 75px;
-    padding: 20px;
-    text-decoration: underline;
-}
-
 h2{
     padding-top: 0;
     font-size: 75px;
-    font-style: italic;
-    color: crimson;
+    font-style: oblique;
+    color: red;
 }
-
-.nextstep{
-    padding: 50px;
-}  
 
 .info{
-    font-size: 50px;
+    font-size: large;
 }
 
-.buttons{
+.logo{ 
+    padding: 20px;
+}
+
+#q1{
+    background-color: red; 
     font-size: 40px;
+    font-weight: 200;
+    color: white;
+}
+
+#q2{
+    background-color: white;
+    font-size: 40px;
+    color: red;
+    font-weight: 200; 
+}
+} 
+
+.nextstep{
+    display: flex;
 }
